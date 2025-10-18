@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Taskify — Today</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tasks.css">
+
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-left">
+      <button id="undoBtn" class="icon-btn" title="Undo">↶</button>
+      <button id="redoBtn" class="icon-btn" title="Redo">↷</button>
+    </div>
+    <h1 class="page-title">Today</h1>
+    <div class="header-right"><!-- empty for symmetry / future icons --></div>
+  </header>
+
+  <!-- Calendar strip -->
+  <div class="calendar-wrap" id="calendarWrap" aria-label="Week calendar">
+    <!-- JS will insert date pills here -->
+  </div>
+
+  <!-- Main content -->
+  <main class="container">
+    <!-- To-Do section -->
+    <section class="tasks-section">
+      <h5 class="section-label">TO DO</h5>
+      <div id="todoList" class="list"></div>
+
+      <h5 class="section-label completed-label">COMPLETED</h5>
+      <div id="completedList" class="list"></div>
+
+      <!-- Empty state -->
+      <div id="emptyState" class="empty-state">
+        <p>You're free! Go touch grass 🌱</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Input bar -->
+  <div class="input-bar">
+    <input id="taskInput" class="task-input" type="text" placeholder="Write a task..." aria-label="Write a task">
+    <button id="addBtn" class="add-btn">Add</button>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="socials">
+        <span class="social">@taskify</span>
+        <span class="social">@Taskify</span>
+      </div>
+      <div class="copyright">© 2025 Taskify. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
