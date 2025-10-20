@@ -145,7 +145,7 @@ header h1 {
   color: #666;
 }
 
-/* Add Task (fixed at bottom) */
+
 .add-task {
   position: fixed;
   bottom: 70px;
@@ -234,3 +234,4 @@ footer.visible {
   header h1 { font-size: 1.5rem; }
   .add-task { width: calc(100% - 32px); }
 }
+
