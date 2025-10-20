@@ -15,14 +15,14 @@ body {
   line-height: 1.6;
 }
 
-/* NAVBAR */
+
 .nav {
   padding: 20px 40px;
   font-weight: 700;
   font-size: 1.2rem;
 }
 
-/* HERO SECTION */
+
 .hero {
   display: flex;
   align-items: center;
@@ -62,7 +62,7 @@ body {
   border-radius: var(--radius);
 }
 
-/* FEATURES SECTION */
+
 .features {
   text-align: center;
   padding: 60px 20px;
@@ -110,7 +110,7 @@ body {
 
 .get-started-btn {
   display: inline-block;
-  background: #1e1e1e; /* dark color like before */
+  background: #1e1e1e; 
   color: #fff;
   text-decoration: none;
   font-weight: 600;
@@ -130,7 +130,7 @@ body {
   opacity: 0.9;
 }
 
-/* ABOUT SECTION */
+
 .about {
   max-width: 800px;
   margin: 60px auto;
@@ -206,3 +206,4 @@ footer {
     width: 100%;
   }
 }
+
